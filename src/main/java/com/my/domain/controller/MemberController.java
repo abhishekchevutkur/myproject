@@ -34,6 +34,8 @@ import com.my.domain.service.MemberRegistration;
 @Model
 public class MemberController {
 
+    private String variable;
+
     @Inject
     private FacesContext facesContext;
 
